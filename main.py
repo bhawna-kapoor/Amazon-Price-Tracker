@@ -32,11 +32,11 @@ base_price = 10000.0
 
 
 # ------SENDING THE EMAIL USING SMTPLIB -----#
-port = 587  # 465  # For SSL
+port = 587  # For SSL
 smtp_server = "smtp.gmail.com"
-sender_email = "ughhh890@gmail.com"  # "test_mail@myyahoo.com"  # Enter your address
-receiver_email = "ughhh890@gmail.com"  # "test_mail@myyahoo.com"  # Enter receiver address
-password = "mlydygrkoygyjrkz"
+sender_email = ""  # Enter your address
+receiver_email = ""  # # Enter receiver address
+password = " " # insert your 16 digit App password here
 
 if new_price <= base_price:
     message = f"{title} is now {new_price}"
